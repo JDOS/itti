@@ -39,3 +39,11 @@ django-admin startproject setup .
 1) gitignore.io
 2) django
 3) note arquivos ignorados no codespace ficam **cinzas**
+
+## Criar App
+1) python manage.py startapp galeria
+2) add em settings.py -> INSTALLED_APPS 
+3) 'galeria'
+4) incluir as urls em setup -> urlpatterns
+5) path("", include('galeria.urls')),
+
