@@ -47,3 +47,6 @@ django-admin startproject setup .
 4) incluir as urls em setup -> urlpatterns
 5) path("", include('galeria.urls')),
 
+## Configuração Templates
+1) settings -> itti\templates 
+2) TEMPLATES ... "DIR": [os.path.join(BASE_DIR, 'templates')],
