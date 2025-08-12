@@ -1,18 +1,19 @@
-# itti
+# ITTI
 
 ## Ambiente Virtual Python - venv (default)
 virtualenv venv
 
 ## Ativação do ambiente virtual
-Linux:
+### Linux:
 source venv/bin/activate
-Windows:
+
+### Windows:
 venv/Script/Actvate
 
 ## Pacotes instalados
 -Django
 
-## Gravar pacotes instalados:
+## Criação dos pacotes instalados:
 pip freeze > requirements.txt
 
 ## Criação Setup Django
