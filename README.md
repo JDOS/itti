@@ -22,3 +22,20 @@ django-admin startproject setup .
 ## Execução do Projeto
 1) Inicie o ambiente virtual
 2) python manage.py runserver 
+
+## Mudança Timezone e Idioma
+- Go settigns.py
+- LANGUAGE_CODE = 'pt-br'
+- TIME_ZONE = 'America/Sao_Paulo'
+
+## DOTENV
+ 1) pip install python-dotenv 
+ 2) Criar arquivo ".env"
+ 3) from dotenv import load_dotenv
+ 4) load_dotenv()
+ 5) str(os.getenv('SECRET_KEY'))
+
+## .gitignore
+1) gitignore.io
+2) django
+3) note arquivos ignorados no codespace ficam **cinzas**
