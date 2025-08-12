@@ -19,5 +19,6 @@ pip freeze > requirements.txt
 ## Criação Setup Django
 django-admin startproject setup .
 
-
-
+## Execução do Projeto
+1) Inicie o ambiente virtual
+2) python manage.py runserver 
