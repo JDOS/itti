@@ -13,8 +13,11 @@ venv/Script/Actvate
 ## Pacotes instalados
 -Django
 
-## Criação dos pacotes instalados:
+## Criação dos pacotes instalados (dependências):
 pip freeze > requirements.txt
+
+## Instalação das dependencias:
+pip install -r requirementes.txt
 
 ## Criação Setup Django
 django-admin startproject setup .
@@ -43,10 +46,17 @@ django-admin startproject setup .
 ## Criar App
 1) python manage.py startapp galeria
 2) add em settings.py -> INSTALLED_APPS 
-3) 'galeria'
+3) galeria.apps.GaleriaConfig -> referenciando as configs do app dentro do arquivo ´apps.py´
 4) incluir as urls em setup -> urlpatterns
 5) path("", include('galeria.urls')),
 
 ## Configuração Templates
 1) settings -> itti\templates 
 2) TEMPLATES ... "DIR": [os.path.join(BASE_DIR, 'templates')],
+
+
+## ORM Django
+1) models.py
+2) crie as classes e dos atributos BD
+3) python manage.py makemigrations
+4) python manage.py migrate
