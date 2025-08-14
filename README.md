@@ -17,7 +17,7 @@ venv/Script/Actvate
 pip freeze > requirements.txt
 
 ## Instalação das dependencias:
-pip install -r requirementes.txt
+pip install -r requirements.txt
 
 ## Criação Setup Django
 django-admin startproject setup .
